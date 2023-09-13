@@ -7,8 +7,8 @@ import bars from "../assets/bars.svg";
 const Footer = ({ toggleSidebarHandler }) => {
   return (
     <>
-      <footer className='h-28 flex items-center justify-between gap-x-4 px-16 py-8 shadow-lg bg-black text-white text-center text-sm md:bg-white md:px-6'>
-        <a href='#' className='h-full'>
+      <footer className='h-32 flex items-center justify-between shadow-footer gap-x-4 px-12 py-8 bg-black text-white text-center text-sm2 md:bg-white md:px-2 md:py-0 md:h-16'>
+        <a href='#' className='h-full p-2'>
           <Image
             width={183}
             height="100%"

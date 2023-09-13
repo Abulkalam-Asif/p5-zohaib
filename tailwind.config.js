@@ -23,7 +23,22 @@ module.exports = {
     extend: {
       colors: {
         gradColor1: "rgb(97, 112, 182)",
-        gradColor2: "rgb(8, 170, 160)"
+        gradColor2: "rgb(8, 170, 160)",
+        linkBtnColor: "#5e7d88"
+      },
+      fontSize: {
+        base2: "1.0625rem",
+        sm2: "0.9375rem"
+      },
+      padding: {
+        12.5: "3.125rem",
+      },
+      height: {
+        26: "6.5rem",
+      },
+      boxShadow: {
+        header: "rgba(0, 0, 0, 0.4) 0px 1px 5px",
+        footer: "rgba(0, 0, 0, 0.4) 0px 1px 5px inset",
       }
     },
   },

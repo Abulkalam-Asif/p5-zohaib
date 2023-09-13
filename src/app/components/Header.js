@@ -5,8 +5,8 @@ import logo from "../assets/logo.png"
 const Header = () => {
   return (
     <>
-      <header className='h-24 sticky top-0 left-0 right-0 flex items-center justify-between px-16 pb-6 pt-8 shadow-lg bg-white md:px-6'>
-        <a href='#' className='h-full'>
+      <header className='h-26 sticky top-0 left-0 right-0 flex items-center justify-between px-16 py-7 shadow-header bg-white md:px-2'>
+        <a href='#' className='h-full flex justify-center items-center p-0.5'>
           <Image
             width={183}
             height="100%"
@@ -16,7 +16,9 @@ const Header = () => {
             priority={true}
           />
         </a>
-        <a href="#" className='bg-gradient-to-r from-gradColor1 to-gradColor2 py-3 px-8 rounded-full text-white text-lg font-semibold'>Sign In</a>
+        <div className='h-full flex justify-center items-center'>
+          <a href="#" className='bg-gradient-to-r from-gradColor1 to-gradColor2 py-4 px-9 leading-4 rounded-full text-white text-base2 font-semibold'>Sign In</a>
+        </div>
       </header>
     </>
   )
