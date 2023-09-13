@@ -30,7 +30,7 @@ const Footer = ({ toggleSidebarHandler }) => {
           <p>&copy; 2023 LegalDocumentGeneration, Inc</p>
           <p>All Rights Reserved.</p>
         </div>
-        <ul className='flex gap-x-4 md:hidden'>
+        <ul className='flex gap-x-6 md:hidden'>
           <li><a className='hover:border-b-4 pb-2' href="#">Privacy Policy</a></li>
           <li><a className='hover:border-b-4 pb-2' href="#">Terms & Conditions</a></li>
         </ul>
