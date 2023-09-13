@@ -8,7 +8,7 @@ const montserrat = Montserrat({
 const H1 = () => {
   return (
     <>
-      <h1 className={`${montserrat.className} text-[40px] font-bold text-center leading-[1em] pb-4 sm:text-3xl`}>Create Account</h1>
+      <h1 className={`${montserrat.className} text-[40px] font-bold text-center leading-[1em] pb-4 sm:text-[26px]`}>Create Account</h1>
     </>
   )
 }
